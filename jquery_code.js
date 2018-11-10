@@ -1,6 +1,6 @@
 $(function(){
 
-    $('#menu > span a').click(function (e) {
+    $('#menu .navbar-nav > span a').click(function (e) {
         e.preventDefault();
     })
 
@@ -8,7 +8,7 @@ $(function(){
         $('body, html').toggleClass('new_font');
     });
 
-    div = $('#menu > span:eq(1)');
+    div = $('#menu .navbar-nav > span:eq(1)');
 
     $('#menu ul > li').hide();
 

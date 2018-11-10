@@ -29,7 +29,7 @@ html, body {
 #menu ul{
     list-style: none;
     position: absolute;
-    left: 105px;
+    right: 25px;
     cursor: pointer;
 }
 #menu ul > li{
@@ -52,27 +52,28 @@ html, body {
 
 
 .content{
-    clear :right;
-    text-align:center;
-    margin-top: 210px;
+    margin-top: 200px;
 }
-.links > a{
+
+@media(max-width: 768px) {
+    .content{
+    margin-top: 140px;
+}
+}
+
+.links div > a{
     color: #636b6f;
-    padding: 0 25px;
-    font-size: 12px;
     font-weight: 600;
-    letter-spacing: .1rem;
     text-decoration: none;
     text-transform: uppercase;
 }
-.links a:hover{
+.links div a:hover{
     color: orange;
 }
-.m-b-md{
-
+.m-b-md h1{
     color: #636b6f;
     padding: 0 25px;
-    font-size: 45px;
     font-weight: 600;
+    font-size: 50px;
 }
 
